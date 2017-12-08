@@ -1,18 +1,29 @@
 <!doctype html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>JavaScript</title>
-    <link href="style.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/skycons/1396634940/skycons.js"></script>
-    <script src="main.js" defer></script>
+    <meta charset="UTF-8">
+    <title>Weather Fetch App</title>
+    <link rel="sylesheet" href="css/style.css">
   </head>
 
   <body>
-    <h1>Weather.js</h1>
-
-    <div id="main">
-      The current weather conditions are:
-    </div>
+    <form method="get">
+      <ul>
+        <li>
+          <label>City</label>
+          <input type="text">
+        </li>
+        <li>
+          <label>Latitude</label>
+          <input type="text">
+        </li>
+        <li>
+          <label>Longitude</label>
+          <input type="text">
+        </li>
+      </ul>
+      <button>Get Weather</button>
+    </form>
+    <script src="js/index.js"></script>
   </body>
 </html>
