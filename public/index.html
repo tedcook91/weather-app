@@ -10,17 +10,19 @@
     <div class='screen'>
     <form method="get">
       <ul>
+        <li>Input your city (coordinates will be assigned) or input lat and long.
+        </li>
         <li>
           <label for="city-search">City</label>
-          <input type="text" id="city-search">
+          <input type="text" id="city-search" placeholder="e.g. Lancaster, PA">
         </li>
         <li>
           <label for="latitude">Latitude</label>
-          <input type="text" id="latitude">
+          <input type="text" id="latitude" placeholder="e.g. 40.0378755">
         </li>
         <li>
           <label for="longitude">Longitude</label>
-          <input type="text" id="longitude">
+          <input type="text" id="longitude" placeholder="e.g. -76.3055144">
         </li>
       </ul>
       <button>Get Weather</button>
@@ -28,7 +30,7 @@
   </div>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/skycons/1396634940/skycons.min.js'></script>
-    <script type='text/javascript' src='config.js'></script>
+    <script src='config.js'></script>
     <script src="main.js"></script>
   </body>
 </html>
